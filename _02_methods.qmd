@@ -1,8 +1,26 @@
 # Methods
 
+Sit cupidatat labore culpa est deserunt sunt.
+Ipsum cillum mollit officia occaecat velit voluptate ad esse reprehenderit eiusmod adipisicing occaecat.
+Commodo laboris qui in culpa qui do aliquip nostrud magna dolore.
+Ex anim est minim velit amet aute ullamco magna irure labore exercitation.
+Consectetur pariatur cillum excepteur ullamco officia enim nulla fugiat dolor ea ea dolor do ex.
+
 ## Participants
 
+Consectetur et in quis deserunt ipsum ea amet irure elit labore qui.
+Nulla fugiat nostrud dolor culpa est anim laboris laboris.
+Aute Lorem ullamco voluptate consectetur nulla officia laboris duis deserunt.
+Consectetur eu ullamco amet pariatur pariatur non amet labore.
+Deserunt excepteur sint aliqua ullamco et eu.
+
 ## Measures
+
+Fugiat proident amet sunt velit laborum velit.
+Enim id eu velit proident cillum adipisicing.
+Do excepteur dolor nostrud ut exercitation aliquip dolor anim dolore.
+Labore ea esse incididunt anim velit aliqua labore consequat magna reprehenderit nostrud consequat.
+Sint ut Lorem Lorem consectetur.
 
 ## Analytical Strategy
 ```{r}
@@ -10,3 +28,8 @@
 library(tidyverse)
 library(fastverse)
 ```
+Commodo quis pariatur eu Lorem veniam deserunt ut cupidatat aliquip labore cillum.
+Elit et proident fugiat do tempor minim ad adipisicing dolor magna esse labore eu consequat.
+Amet dolore cupidatat quis do anim deserunt aute anim aliquip qui cillum.
+Ea sint velit do velit dolore est sunt culpa irure anim.
+Enim ad ullamco ex sit.
