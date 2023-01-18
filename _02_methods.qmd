@@ -6,8 +6,6 @@ Commodo laboris qui in culpa qui do aliquip nostrud magna dolore.
 Ex anim est minim velit amet aute ullamco magna irure labore exercitation.
 Consectetur pariatur cillum excepteur ullamco officia enim nulla fugiat dolor ea ea dolor do ex.
 
-::: panel-tabset
-
 ## Participants
 
 Consectetur et in quis deserunt ipsum ea amet irure elit labore qui.
@@ -39,5 +37,3 @@ Elit et proident fugiat do tempor minim ad adipisicing dolor magna esse labore e
 Amet dolore cupidatat quis do anim deserunt aute anim aliquip qui cillum.
 Ea sint velit do velit dolore est sunt culpa irure anim.
 Enim ad ullamco ex sit.
-
-:::
