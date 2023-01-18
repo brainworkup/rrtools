@@ -35,20 +35,20 @@ format:
     toc: false
     number-sections: true
   docx:
-    reference-doc: "../templates/template.docx" # Insert path for the DOCX file
+    reference-doc: "src/templates/template.docx" # Insert path for the DOCX file
 execute:
   echo: true
   warning: false
   message: false
   comment: "#>"
-  fig-path: "../figures/"
+  fig-path: "targets/figures/"
   fig-dpi: 600
 filters:
-  - ../templates/scholarly-metadata.lua
-  - ../templates/author-info-blocks.lua
-  - ../templates/pagebreak.lua
-bibliography: references.bib
-csl: "../templates/journal-of-archaeological-science.csl" # Insert path for the bib-style
+  - src/templates/scholarly-metadata.lua
+  - src/templates/author-info-blocks.lua
+  - src/templates/pagebreak.lua
+bibliography: src/references.bib
+csl: "src/templates/journal-of-archaeological-science.csl" # Insert path for the bib-style
 abstract: |
   Text of abstract
 keywords: |
@@ -67,6 +67,10 @@ Highlights: `r rmarkdown::metadata$highlights`
 
 <!-- The actual document text starts here: -->
 
+{{< include _abstract.qmd >}}
+
+{{< pagebreak >}}
+
 # Introduction
 
 Here is a citation [@Marwick2017]
@@ -83,7 +87,7 @@ Here is a citation [@Marwick2017]
 #| label: get-data
 #| eval: false
 # Note the path that we need to use to access our data files when rendering this document
-my_data <- read.csv(here::here('analysis/data/raw_data/my_csv_file.csv'))
+my_data <- read.csv(here::here('src/data/raw_data/my_csv_file.csv'))
 ```
 
 ```{r}

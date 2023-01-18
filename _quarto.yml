@@ -1,11 +1,11 @@
 project:
-  title: "rrtools"
+  type: website
   output-dir: docs
-  execute-dir: file #project # file is other option
+  execute-dir: project #file is other option
   resources: src
   render:
-    - analysis/paper/index.qmd
-    - "!analysis/paper/paper.qmd"
+    - index.qmd
+    - _abstract.qmd
     # - "*.qmd"
     # - "!ignored.qmd"
     # - "!ignored-dir/"
