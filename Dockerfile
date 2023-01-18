@@ -2,7 +2,7 @@
 FROM rocker/verse:4.2.2
 
 # required
-MAINTAINER Your Name <your_email@somewhere.com>
+MAINTAINER Joey Trampush <your_email@somewhere.com>
 
 COPY . /rrtools
 
