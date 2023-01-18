@@ -1,0 +1,8 @@
+project:
+  title: "rrtools"
+  output-dir: docs
+  # execute-dir: project # file is other option
+  # resources: src
+
+execute:
+  freeze: auto
