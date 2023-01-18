@@ -1,7 +1,7 @@
 project:
   title: "rrtools"
   output-dir: docs
-  # execute-dir: project # file is other option
+  execute-dir: file #project # file is other option
   resources: src
   render:
     - analysis/paper/paper.qmd
