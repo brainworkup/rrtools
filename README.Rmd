@@ -56,7 +56,7 @@ To work with the compendium, you will need installed on your computer the [R sof
 
 You can download the compendium as a zip from from this URL: [master.zip](/archive/master.zip).
 After unzipping: - open the `.Rproj` file in RStudio - run `devtools::install()` to ensure you have the packages this analysis depends on (also listed in the [DESCRIPTION](/DESCRIPTION) file).
-- finally, open `index.qmd` and knit to produce the `paper.docx`, or run `quarto::quarto_render("index.qmd")` in the R console
+- finally, open `index.qmd` and knit to produce the `_paper.docx`, or run `quarto::quarto_render("index.qmd")` in the R console
 
 ### Licenses
 
