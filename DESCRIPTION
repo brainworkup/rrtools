@@ -55,6 +55,7 @@ Imports: here,
     polspline,
     renv (>= 0.16.0-53),
     rggobi,
+    rrtools,
     robust,
     rpart (>= 4.1.19),
     SASxport,
@@ -73,6 +74,9 @@ Imports: here,
     vp1,
     xaxis,
     xgobi,
-    yags
+    yags,
+    fastverse (>= 0.3.0),
+    quarto (>= 1.2),
+    tidyverse (>= 1.3.2.9000)
 Suggests: devtools,
     git2r

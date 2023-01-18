@@ -1,0 +1,14 @@
+{
+  "hash": "6316689da87a4c360664fbcdcca65c1c",
+  "result": {
+    "markdown": "# Methods\n\n## Participants\n\n## Measures\n\n## Analytical Strategy\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

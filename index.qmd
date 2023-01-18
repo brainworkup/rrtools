@@ -1,41 +1,60 @@
 ---
-title: "Title Goes Here"
+title: Short Paper
+subtitle: A Short Subtitle
 author:
-  - Jane Doe:
-      correspondence: "yes"
-      email: janedoe@fosg.org
-      orcid: 0000-0003-1689-0557
-      institute:
-        - fosg
-        - fop
-  - John Q. Doe:
-      institute: fosg
-      orcid: 0000-0003-1689-0558
-  - Peder Ås:
-      institute: fosg
-      orcid: 0000-0003-1689-0559
-  - Juan Pérez:
-      orcid: 0000-0003-1689-0551
-      institute:
-        - name: Acme Corporation
-  - Max Mustermann:
-      orcid: 0000-0003-1689-0552
-institute:
-  - fosg:
-      name: Formatting Open Science Group
-      address: 23 Science Street, Eureka, Mississippi, USA
-  - fop: Federation of Planets
-title-block-published: "Last updated"  
-date: now
+  - name: Alice Anonymous
+    email: alice@example.com
+    affiliations: 
+        - id: some-tech
+          name: Some Institute of Technology
+          department: Department Name
+          address: Street Address
+          city: City
+          state: State
+          postal-code: Postal Code
+    attributes:
+        corresponding: true
+    note: This is the first author footnote.
+  - name: Bob Security
+    email: bob@example.com
+    affiliations:
+        - id: another-u
+          name: Another University
+          department: Department Name
+          address: Street Address
+          city: City
+          state: State
+          postal-code: Postal Code
+    note: |
+      Another author footnote, this is a very long footnote and it should be a really long footnote. But this footnote is not yet sufficiently long enough to make two lines of footnote text.
+  - name: Cat Memes
+    email: cat@example.com
+    affiliations:
+        - ref: another-u
+    note: Yet another author footnote.
+  - name: Derek Zoolander
+    email: derek@example.com
+    affilations:
+        - ref: some-tech
+keywords: 
+  - keyword1
+  - keyword2
+date: last-modified
 date-format: long
+
 format:
+  elsevier-pdf:
+    keep-tex: true
+    journal:
+      name: Journal Name
+      formatting: preprint
+      model: 3p
+      cite-style: super
   html:
     toc: true
-  pdf:
-    toc: false
-    number-sections: true
   docx:
     reference-doc: "src/templates/template.docx" # Insert path for the DOCX file
+
 execute:
   echo: true
   warning: false
@@ -43,14 +62,12 @@ execute:
   comment: "#>"
   fig-path: "targets/figures/"
   fig-dpi: 600
-filters:
-  - src/templates/scholarly-metadata.lua
-  - src/templates/author-info-blocks.lua
-  - src/templates/pagebreak.lua
-bibliography: src/references.bib
-csl: "src/templates/journal-of-archaeological-science.csl" # Insert path for the bib-style
-keywords: |
-  keyword 1; keyword 2; keyword 3
+# filters:
+#   - src/templates/scholarly-metadata.lua
+#   - src/templates/author-info-blocks.lua
+#   - src/templates/pagebreak.lua
+bibliography: [src/bib/references.bib, src/bib/bibliography.bib]
+csl: "src/templates/journal-of-archaeological-science.csl" 
 highlights: |
   These are the highlights. 
 ---
@@ -83,7 +100,7 @@ Here is an example of inline code `r x` in the middle of a sentence.
 
 <!-- The following line inserts a page break  -->
 
-\newpage
+<!-- {{< pagebreak >}} -->
 
 {{< include _references.qmd >}}
 
@@ -92,6 +109,6 @@ Here is an example of inline code `r x` in the middle of a sentence.
 ::: {#refs}
 :::
 
-\newpage
+<!-- {{< pagebreak >}} -->
 
 {{< include _colophon.qmd >}}

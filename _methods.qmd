@@ -5,3 +5,8 @@
 ## Measures
 
 ## Analytical Strategy
+```{r}
+#| include: false
+library(tidyverse)
+library(fastverse)
+```
