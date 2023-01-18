@@ -1,8 +1,590 @@
-<html xmlns="http://www.w3.org/1999/xhtml">    
-  <head>      
-    <title>Redirect to index.html</title>      
-    <meta http-equiv="refresh" content="0;URL='index.html'" />    
-  </head>    
-  <body> 
-  </body>  
-</html>     
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.112">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Alice Anonymous, Bob Security, Cat Memes, and Derek Zoolander">
+<meta name="dcterms.date" content="2023-01-18">
+<meta name="keywords" content="keyword1, keyword2">
+
+<title>Short Paper</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body>
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a>
+  <ul class="collapse">
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  </ul></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#methods-1" id="toc-methods-1" class="nav-link" data-scroll-target="#methods-1">Methods</a>
+  <ul class="collapse">
+  <li><a href="#participants" id="toc-participants" class="nav-link" data-scroll-target="#participants">Participants</a></li>
+  <li><a href="#measures" id="toc-measures" class="nav-link" data-scroll-target="#measures">Measures</a></li>
+  <li><a href="#analytical-strategy" id="toc-analytical-strategy" class="nav-link" data-scroll-target="#analytical-strategy">Analytical Strategy</a></li>
+  </ul></li>
+  <li><a href="#results-1" id="toc-results-1" class="nav-link" data-scroll-target="#results-1">Results</a></li>
+  <li><a href="#discussion-1" id="toc-discussion-1" class="nav-link" data-scroll-target="#discussion-1">Discussion</a></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
+  <ul class="collapse">
+  <li><a href="#colophon" id="toc-colophon" class="nav-link" data-scroll-target="#colophon">Colophon</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="_index.pdf"><i class="bi bi-file-pdf"></i>PDF (elsevier)</a></li><li><a href="/Users/joey/dev/rrtools/_index.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Short Paper</h1>
+<p class="subtitle lead">A Short Subtitle</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Alice Anonymous </p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Some Institute of Technology
+          </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+    <p class="author">Bob Security </p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Another University
+          </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+    <p class="author">Cat Memes </p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Another University
+          </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+    <p class="author">Derek Zoolander </p>
+  </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 18, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<!-- This is the format for text comments that will be ignored during renderings. Do not put R code in these comments because it will not be ignored. -->
+<!-- With the following code you can access and display values from the yml header above. -->
+<p>Keywords: keyword1, keyword2</p>
+<p>Highlights: These are the highlights.</p>
+<!-- The actual document text starts here: -->
+<section id="abstract" class="level1">
+<h1>Abstract</h1>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>Deserunt voluptate cupidatat officia mollit magna irure nisi. Mollit adipisicing fugiat laboris sunt ex incididunt reprehenderit. Et velit anim est minim ad esse excepteur officia Lorem nulla cillum est. Tempor Lorem eu aliqua mollit et dolor.</p>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<p>Eu eu nostrud cillum duis aliquip ad do eu quis anim nostrud magna consectetur reprehenderit ad. Pariatur adipisicing commodo velit et ut incididunt deserunt in. Enim sint voluptate officia. Nostrud occaecat irure qui velit tempor irure veniam nostrud enim amet labore anim.</p>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>Irure enim duis pariatur magna incididunt exercitation magna ad eiusmod aliqua do sint exercitation. Sint ea ex amet sunt sint fugiat proident aliqua duis exercitation excepteur sit dolor. Pariatur amet Lorem ex aliqua duis anim proident. Ad qui enim exercitation et qui nostrud velit ad deserunt dolore occaecat do.</p>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<p>Sint ad ut tempor aliqua laborum eiusmod. Sint labore nulla cillum pariatur sit eiusmod adipisicing est ex ex irure incididunt amet et in. Tempor ut ut velit irure ipsum do. Dolore veniam eu sit elit laborum officia reprehenderit voluptate ut dolore.</p>
+<div style="page-break-after: always;"></div>
+</section>
+</section>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Here is a citation <span class="citation" data-cites="Marwick2017">(<a href="#ref-Marwick2017" role="doc-biblioref">Marwick, 2017</a>)</span>.</p>
+</section>
+<section id="methods-1" class="level1">
+<h1>Methods</h1>
+<section id="participants" class="level2">
+<h2 class="anchored" data-anchor-id="participants">Participants</h2>
+</section>
+<section id="measures" class="level2">
+<h2 class="anchored" data-anchor-id="measures">Measures</h2>
+</section>
+<section id="analytical-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="analytical-strategy">Analytical Strategy</h2>
+</section>
+</section>
+<section id="results-1" class="level1">
+<h1>Results</h1>
+<!-- Here's some example analysis code: -->
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Note the path that we need to use to access our data files when rendering this document</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>my_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">'src/data/raw_data/my_csv_file.csv'</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="fu">rnorm</span>(<span class="dv">10</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div id="fig-demo-plot" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="index_files/figure-html/fig-demo-plot-1.png" class="img-fluid figure-img" width="4200"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: A plot of random numbers</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Figure <a href="#fig-demo-plot">Figure&nbsp;1</a> shows how we can have a caption and cross-reference for a plot. Note that figure label and cross-references must both be prefixed with <code>fig-</code></p>
+<div class="cell">
+
+</div>
+<p>Here is an example of inline code 3.14 in the middle of a sentence.</p>
+<p>Here is an example of inline code 3.14 in the middle of a sentence.</p>
+</section>
+<section id="discussion-1" class="level1">
+<h1>Discussion</h1>
+</section>
+<section id="acknowledgements" class="level1">
+<h1>Acknowledgements</h1>
+<!-- The following line inserts a page break  -->
+<!--  -->
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<!-- The following line ensures the references appear here for the MS Word or HTML output files, rather than right at the end of the document (this will not work for PDF files):  -->
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Marwick2017" class="csl-entry" role="doc-biblioentry">
+Marwick, B., 2017. Computational reproducibility in archaeological research: Basic principles and a case study of their implementation. Journal of Archaeological Method and Theory 24, 424–450. <a href="https://doi.org/10.1007/s10816-015-9272-9">https://doi.org/10.1007/s10816-015-9272-9</a>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<!-- The following line ensures the references appear here for the MS Word or HTML output files, rather than right at the end of the document (this will not work for PDF files):  -->
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Marwick2017" class="csl-entry" role="doc-biblioentry">
+Marwick, B., 2017. Computational reproducibility in archaeological research: Basic principles and a case study of their implementation. Journal of Archaeological Method and Theory 24, 424–450. <a href="https://doi.org/10.1007/s10816-015-9272-9">https://doi.org/10.1007/s10816-015-9272-9</a>
+</div>
+</div>
+<!--  -->
+<section id="colophon" class="level3">
+<h3 class="anchored" data-anchor-id="colophon">Colophon</h3>
+<p>This report was generated on 2023-01-18 10:33:08 using the following computational environment and dependencies:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># which R packages and versions?</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">"devtools"</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>()) devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>─ Session info ───────────────────────────────────────────────────────────────
+ setting  value
+ version  R version 4.2.2 Patched (2023-01-06 r83584)
+ os       macOS Big Sur ... 10.16
+ system   x86_64, darwin17.0
+ ui       X11
+ language (EN)
+ collate  en_US.UTF-8
+ ctype    en_US.UTF-8
+ tz       America/Los_Angeles
+ date     2023-01-18
+ pandoc   2.19.2 @ /usr/local/bin/ (via rmarkdown)
+
+─ Packages ───────────────────────────────────────────────────────────────────
+ ! package     * version     date (UTC) lib source
+ P cachem        1.0.6.9000  2022-11-30 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P callr         3.7.3.9000  2022-12-24 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P cli           3.6.0.9000  2023-01-11 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P collapse    * 1.9.0       2023-01-15 [?] CRAN (R 4.2.0)
+ P colorspace    2.1-0       2022-12-13 [?] https://r-forge.r-universe.dev (R 4.2.2)
+ P crayon        1.5.2       2022-09-29 [?] CRAN (R 4.2.0)
+ P data.table  * 1.14.6      2022-11-16 [?] CRAN (R 4.2.0)
+ P devtools      2.4.5.9000  2022-10-11 [?] https://r-lib.r-universe.dev (R 4.2.1)
+ P digest        0.6.31      2022-12-11 [?] CRAN (R 4.2.0)
+ P dplyr       * 1.0.99.9000 2023-01-04 [?] repository (https://github.com/tidyverse/dplyr@dbda0c7)
+ P ellipsis      0.3.2.9000  2022-12-11 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P evaluate      0.20.1      2023-01-17 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P fansi         1.0.3       2022-03-24 [?] CRAN (R 4.2.0)
+ P fastmap       1.1.0.9000  2022-12-23 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P fastverse   * 0.3.0       2022-11-15 [?] CRAN (R 4.2.0)
+ P forcats     * 0.5.2.9000  2023-01-10 [?] repository (https://github.com/tidyverse/forcats@bd319e0)
+ P fs            1.5.2.9000  2022-12-21 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P generics      0.1.3.9000  2023-01-01 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P ggplot2     * 3.4.0.9000  2023-01-06 [?] https://tidyverse.r-universe.dev (R 4.2.2)
+ P glue          1.6.2.9000  2022-12-18 [?] https://tidyverse.r-universe.dev (R 4.2.2)
+ P gtable        0.3.1.9000  2022-12-24 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P hms           1.1.2.9002  2022-12-30 [?] https://tidyverse.r-universe.dev (R 4.2.2)
+ P htmltools     0.5.4.9000  2023-01-03 [?] https://rstudio.r-universe.dev (R 4.2.2)
+ P htmlwidgets   1.6.1       2023-01-07 [?] CRAN (R 4.2.0)
+ P httpuv        1.6.8.9000  2023-01-12 [?] https://rstudio.r-universe.dev (R 4.2.2)
+ P jsonlite      1.8.4       2022-12-06 [?] CRAN (R 4.2.0)
+ P kit         * 0.0.12      2022-10-26 [?] CRAN (R 4.2.0)
+ P knitr         1.41.9      2023-01-06 [?] https://yihui.r-universe.dev (R 4.2.2)
+ P later         1.3.0.9000  2023-01-10 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P lifecycle     1.0.3.9000  2023-01-05 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P lubridate   * 1.9.0.9000  2022-12-12 [?] https://ropensci.r-universe.dev (R 4.2.2)
+ P magrittr    * 2.0.3.9000  2022-12-25 [?] https://tidyverse.r-universe.dev (R 4.2.2)
+ P memoise       2.0.1.9000  2023-01-03 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P mime          0.12.1      2022-12-18 [?] https://yihui.r-universe.dev (R 4.2.2)
+ P miniUI        0.1.1.1     2018-05-18 [?] CRAN (R 4.2.0)
+ P munsell       0.5.0       2018-06-12 [?] CRAN (R 4.2.0)
+ P pillar        1.8.1.9006  2023-01-01 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P pkgbuild      1.4.0.9000  2022-11-27 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P pkgconfig     2.0.3       2019-09-22 [?] CRAN (R 4.2.0)
+ P pkgload       1.3.2.9000  2022-11-16 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P prettyunits   1.1.1.9000  2022-11-30 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P processx      3.8.0.9000  2022-12-18 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P profvis       0.3.7.9000  2022-04-27 [?] https://rstudio.r-universe.dev (R 4.2.0)
+ P promises      1.2.0.9000  2022-04-28 [?] https://rstudio.r-universe.dev (R 4.2.0)
+ P ps            1.7.2.9000  2022-12-26 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P purrr       * 1.0.1.9000  2023-01-10 [?] https://tidyverse.r-universe.dev (R 4.2.2)
+ P R6            2.5.1.9000  2022-12-27 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P Rcpp          1.0.9       2022-07-08 [?] CRAN (R 4.2.0)
+ P readr       * 2.1.3.9000  2022-12-11 [?] https://tidyverse.r-universe.dev (R 4.2.2)
+ P remotes       2.4.2       2021-11-30 [?] CRAN (R 4.2.0)
+   renv          0.16.0-53   2023-01-13 [1] https://rstudio.r-universe.dev (R 4.2.2)
+ P rlang         1.0.6.9000  2022-12-17 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P rmarkdown     2.19.2      2022-12-22 [?] Github (rstudio/rmarkdown@8fabad0)
+ P scales        1.2.1.9000  2023-01-01 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P sessioninfo   1.2.2.9000  2022-05-14 [?] https://r~
+ P shiny         1.7.4.9001  2023-01-06 [?] https://rstudio.r-universe.dev (R 4.2.2)
+ P stringi       1.7.12      2023-01-11 [?] CRAN (R 4.2.2)
+ P stringr     * 1.5.0.9000  2022-12-07 [?] https://tidyverse.r-universe.dev (R 4.2.2)
+ P tibble      * 3.1.8.9004  2022-12-30 [?] https://tidyverse.r-universe.dev (R 4.2.2)
+ P tidyr       * 1.2.1.9001  2023-01-10 [?] repository (https://github.com/tidyverse/tidyr@9174795)
+ P tidyselect    1.2.0.9000  2023-01-09 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P tidyverse   * 1.3.2.9000  2023-01-05 [?] repository (https://github.com/tidyverse/tidyverse@3be8283)
+ P timechange    0.2.0       2023-01-11 [?] CRAN (R 4.2.0)
+ P tzdb          0.3.0.9000  2023-01-04 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P urlchecker    1.0.1.9000  2022-05-14 [?] https://r~
+ P usethis       2.1.6.9000  2022-12-13 [?] Github (r-lib/usethis@a98a0e6)
+ P utf8          1.2.2       2021-07-24 [?] CRAN (R 4.2.0)
+ P vctrs         0.5.1.9000  2023-01-09 [?] Github (r-lib/vctrs@4c57418)
+ P withr         2.5.0.9000  2022-12-26 [?] https://r-lib.r-universe.dev (R 4.2.2)
+ P xfun          0.36.1      2023-01-12 [?] https://yihui.r-universe.dev (R 4.2.2)
+ P xtable        1.8-6       2022-04-14 [?] https://r-forge.r-universe.dev (R 4.2.0)
+ P yaml          2.3.6       2022-10-18 [?] CRAN (R 4.2.0)
+
+ [1] /Users/joey/.renv/library/rrtools-8440cc86/R-4.2/x86_64-apple-darwin17.0
+ [2] /Users/joey/dev/rrtools/renv/sandbox/R-4.2/x86_64-apple-darwin17.0/84ba8b13
+
+ P ── Loaded and on-disk path mismatch.
+
+──────────────────────────────────────────────────────────────────────────────</code></pre>
+</div>
+</div>
+<p>The current Git commit details are:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># what commit is this file at? </span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">"git2r"</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>() <span class="sc">&amp;</span> git2r<span class="sc">::</span><span class="fu">in_repository</span>(<span class="at">path =</span> <span class="st">"."</span>)) git2r<span class="sc">::</span><span class="fu">repository</span>(here<span class="sc">::</span><span class="fu">here</span>())  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Local:    main /Users/joey/dev/rrtools
+Remote:   main @ origin (https://github.com/brainworkup/rrtools.git)
+Head:     [0467987] 2023-01-18: WORKING somewhat</code></pre>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

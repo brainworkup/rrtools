@@ -43,6 +43,8 @@ date: last-modified
 date-format: long
 
 format:
+  html:
+    toc: true
   elsevier-pdf:
     keep-tex: true
     journal:
@@ -50,10 +52,10 @@ format:
       formatting: preprint
       model: 3p
       cite-style: super
-  html:
-    toc: true
+    output-file: _index.pdf
   docx:
     reference-doc: "src/templates/template.docx" # Insert path for the DOCX file
+    output-file: _index.docx
 
 execute:
   echo: true
@@ -62,10 +64,10 @@ execute:
   comment: "#>"
   fig-path: "targets/figures/"
   fig-dpi: 600
-# filters:
-#   - src/templates/scholarly-metadata.lua
-#   - src/templates/author-info-blocks.lua
-#   - src/templates/pagebreak.lua
+filters:
+  - src/templates/scholarly-metadata.lua
+  - src/templates/author-info-blocks.lua
+  - src/templates/pagebreak.lua
 bibliography: [src/bib/references.bib, src/bib/bibliography.bib]
 csl: "src/templates/journal-of-archaeological-science.csl" 
 highlights: |

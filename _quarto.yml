@@ -1,8 +1,8 @@
 project:
   type: website
   output-dir: docs
-  execute-dir: project #file is other option
-  resources: src
+  execute-dir: file # project #file is other option
+  # resources: src
   render:
     - index.qmd
     - _abstract.qmd
