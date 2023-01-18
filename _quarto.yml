@@ -4,7 +4,8 @@ project:
   execute-dir: file #project # file is other option
   resources: src
   render:
-    - analysis/paper/paper.qmd
+    - analysis/paper/index.qmd
+    - "!analysis/paper/paper.qmd"
     # - "*.qmd"
     # - "!ignored.qmd"
     # - "!ignored-dir/"
