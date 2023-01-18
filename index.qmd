@@ -46,19 +46,28 @@ date: last-modified
 date-format: long
 
 format:
-  html:
-    toc: true
   elsevier-pdf:
     keep-tex: true
     journal:
       name: Journal Name
       formatting: preprint
-      model: 3p
+      model: "3p"
       cite-style: super
-    output-file: _index.pdf
+    # output-file: "_index.pdf"
+  html:
+    toc: true
+    toc-location: left
+    html-math-method: katex
+    embed-resources: true
+    smooth-scroll: true
+    anchor-sections: true
+    theme: 
+      - united
+      - "src/scss/theme.scss"
+      - "src/scss/theme-dark.scss"
   docx:
-    reference-doc: "src/templates/template.docx" # Insert path for the DOCX file
-    output-file: _index.docx
+    reference-doc: "src/templates/template.docx"
+    # output-file: "_index.docx"
 
 execute:
   echo: true
@@ -98,6 +107,7 @@ highlights: |
 {{< include _03_results.qmd >}}
 
 Here is an example of inline code `r x` in the middle of a sentence.
+
 
 {{< include _04_discussion.qmd >}}
 

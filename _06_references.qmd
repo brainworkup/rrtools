@@ -1,5 +1,3 @@
-# References
-
 <!-- The following line ensures the references appear here for the MS Word or HTML output files, rather than right at the end of the document (this will not work for PDF files):  -->
 
 ::: {#refs}
