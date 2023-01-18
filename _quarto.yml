@@ -2,7 +2,12 @@ project:
   title: "rrtools"
   output-dir: docs
   # execute-dir: project # file is other option
-  # resources: src
+  resources: src
+  render:
+    - analysis/paper/paper.qmd
+    # - "*.qmd"
+    # - "!ignored.qmd"
+    # - "!ignored-dir/"
 
 execute:
   freeze: auto

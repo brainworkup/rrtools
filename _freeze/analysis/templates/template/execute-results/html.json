@@ -1,0 +1,14 @@
+{
+  "hash": "5c35064354ea8a33d321d206ccf3f399",
+  "result": {
+    "markdown": "---\ntitle: \"My title\"\nauthor:\n- author 1\n- other author\ndate: '2023-01-18'\noutput: word_document\nabstract: \"My abstract \\n\"\n---\n\n\n\n\n# Heading 1\n\n## Heading 2\n\n### Heading 3\n\n#### Heading 4\n\n##### Heading 5 - this is for the page break with MS Word\n\nIn the MS Word document, the following modifications must be made in the 'Modify Style' menu:\n\n+ Set the font color to ‘white’ (rather than ‘Automatic’).\n+ Select the smallest font size (8 rather than 11).\n+ Select ‘Page break before’ in the ‘Line and Page Breaks’ tab.\n+ Set the line spacing to ‘Exactly’ and ‘1 pt’ in the ‘Indents and Spacing’ tab.\n\nAfter these tweaks, the ‘Heading 5’ style will no longer format a heading of level 5. Instead it will insert a very small and white (and, thus, invisible) line followed by a page break.\n\nNow knit this doc, and edit the styles in the resulting docx file. Then rename as 'template' and use this in the yml:\n\n```\noutput:\n  word_document:\n    reference_docx: templates/template.docx\n```\n\nDon't forget line numbers for JAS! Headings are bold, underline, nothing. And Arial Narrow 10pt for tables.\n\nSee here for more information: http://rmarkdown.rstudio.com/articles_docx.html\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
