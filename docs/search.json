@@ -2,90 +2,90 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Short Paper",
+    "title": "Research Article",
     "section": "",
-    "text": "Keywords: keyword1, keyword2\nHighlights: These are the highlights."
+    "text": "Keywords: keyword1, keyword2, keyword3\nHighlights: These are the highlights."
   },
   {
     "objectID": "index.html#background",
     "href": "index.html#background",
-    "title": "Short Paper",
+    "title": "Research Article",
     "section": "Background",
     "text": "Background\nDeserunt voluptate cupidatat officia mollit magna irure nisi. Mollit adipisicing fugiat laboris sunt ex incididunt reprehenderit. Et velit anim est minim ad esse excepteur officia Lorem nulla cillum est. Tempor Lorem eu aliqua mollit et dolor."
   },
   {
     "objectID": "index.html#methods",
     "href": "index.html#methods",
-    "title": "Short Paper",
+    "title": "Research Article",
     "section": "Methods",
     "text": "Methods\nEu eu nostrud cillum duis aliquip ad do eu quis anim nostrud magna consectetur reprehenderit ad. Pariatur adipisicing commodo velit et ut incididunt deserunt in. Enim sint voluptate officia. Nostrud occaecat irure qui velit tempor irure veniam nostrud enim amet labore anim."
   },
   {
     "objectID": "index.html#results",
     "href": "index.html#results",
-    "title": "Short Paper",
+    "title": "Research Article",
     "section": "Results",
     "text": "Results\nIrure enim duis pariatur magna incididunt exercitation magna ad eiusmod aliqua do sint exercitation. Sint ea ex amet sunt sint fugiat proident aliqua duis exercitation excepteur sit dolor. Pariatur amet Lorem ex aliqua duis anim proident. Ad qui enim exercitation et qui nostrud velit ad deserunt dolore occaecat do."
   },
   {
     "objectID": "index.html#discussion",
     "href": "index.html#discussion",
-    "title": "Short Paper",
+    "title": "Research Article",
     "section": "Discussion",
     "text": "Discussion\nSint ad ut tempor aliqua laborum eiusmod. Sint labore nulla cillum pariatur sit eiusmod adipisicing est ex ex irure incididunt amet et in. Tempor ut ut velit irure ipsum do. Dolore veniam eu sit elit laborum officia reprehenderit voluptate ut dolore."
   },
   {
     "objectID": "index.html#participants",
     "href": "index.html#participants",
-    "title": "Short Paper",
+    "title": "Research Article",
     "section": "Participants",
     "text": "Participants"
   },
   {
     "objectID": "index.html#measures",
     "href": "index.html#measures",
-    "title": "Short Paper",
+    "title": "Research Article",
     "section": "Measures",
     "text": "Measures"
   },
   {
     "objectID": "index.html#analytical-strategy",
     "href": "index.html#analytical-strategy",
-    "title": "Short Paper",
+    "title": "Research Article",
     "section": "Analytical Strategy",
     "text": "Analytical Strategy"
   },
   {
-    "objectID": "_abstract.html",
-    "href": "_abstract.html",
+    "objectID": "_00_abstract.html",
+    "href": "_00_abstract.html",
     "title": "Abstract",
     "section": "",
     "text": "Deserunt voluptate cupidatat officia mollit magna irure nisi. Mollit adipisicing fugiat laboris sunt ex incididunt reprehenderit. Et velit anim est minim ad esse excepteur officia Lorem nulla cillum est. Tempor Lorem eu aliqua mollit et dolor.\n\n\n\nEu eu nostrud cillum duis aliquip ad do eu quis anim nostrud magna consectetur reprehenderit ad. Pariatur adipisicing commodo velit et ut incididunt deserunt in. Enim sint voluptate officia. Nostrud occaecat irure qui velit tempor irure veniam nostrud enim amet labore anim.\n\n\n\nIrure enim duis pariatur magna incididunt exercitation magna ad eiusmod aliqua do sint exercitation. Sint ea ex amet sunt sint fugiat proident aliqua duis exercitation excepteur sit dolor. Pariatur amet Lorem ex aliqua duis anim proident. Ad qui enim exercitation et qui nostrud velit ad deserunt dolore occaecat do.\n\n\n\nSint ad ut tempor aliqua laborum eiusmod. Sint labore nulla cillum pariatur sit eiusmod adipisicing est ex ex irure incididunt amet et in. Tempor ut ut velit irure ipsum do. Dolore veniam eu sit elit laborum officia reprehenderit voluptate ut dolore."
   },
   {
-    "objectID": "_intro.html",
-    "href": "_intro.html",
+    "objectID": "_01_intro.html",
+    "href": "_01_intro.html",
     "title": "Introduction",
     "section": "",
     "text": "Introduction\nHere is a citation [@Marwick2017]."
   },
   {
-    "objectID": "_results.html",
-    "href": "_results.html",
+    "objectID": "_03_results.html",
+    "href": "_03_results.html",
     "title": "Results",
     "section": "",
     "text": "Results\n\n\n# Note the path that we need to use to access our data files when rendering this document\nmy_data <- read.csv(here::here('src/data/raw_data/my_csv_file.csv'))\n\n\nplot(rnorm(10))\n\n\n\n\nFigure 1: A plot of random numbers\n\n\n\n\nFigure Figure 1 shows how we can have a caption and cross-reference for a plot. Note that figure label and cross-references must both be prefixed with fig-\n\n\n\nHere is an example of inline code 3.14 in the middle of a sentence."
   },
   {
-    "objectID": "_discussion.html",
-    "href": "_discussion.html",
+    "objectID": "_04_discussion.html",
+    "href": "_04_discussion.html",
     "title": "Discussion",
     "section": "",
     "text": "Discussion"
   },
   {
-    "objectID": "_references.html",
-    "href": "_references.html",
+    "objectID": "_06_references.html",
+    "href": "_06_references.html",
     "title": "References",
     "section": "",
     "text": "References"

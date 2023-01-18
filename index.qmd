@@ -1,25 +1,25 @@
 ---
-title: Short Paper
+title: Research Article
 subtitle: A Short Subtitle
 author:
-  - name: Alice Anonymous
-    email: alice@example.com
+  - name: Joey W. Trampush
+    email: joey.trampush@med.usc.edu
     affiliations: 
-        - id: some-tech
-          name: Some Institute of Technology
-          department: Department Name
+        - id: ksom
+          name: USC Keck School of Medicine
+          department: Psychiatry
           address: Street Address
-          city: City
-          state: State
-          postal-code: Postal Code
+          city: Los Angeles
+          state: CA
+          postal-code: 90033
     attributes:
         corresponding: true
     note: This is the first author footnote.
-  - name: Bob Security
-    email: bob@example.com
+  - name: Tommy Trojan
+    email: tommy@usc.edu
     affiliations:
-        - id: another-u
-          name: Another University
+        - id: usc
+          name: USC
           department: Department Name
           address: Street Address
           city: City
@@ -27,18 +27,21 @@ author:
           postal-code: Postal Code
     note: |
       Another author footnote, this is a very long footnote and it should be a really long footnote. But this footnote is not yet sufficiently long enough to make two lines of footnote text.
-  - name: Cat Memes
-    email: cat@example.com
+  - name: Biggie Smalls
+    email: biggie@badboy.com
     affiliations:
-        - ref: another-u
+        - id: nimh
+          name: National Institutes of Health
+          department: Department Name
+          address: Street Address
+          city: City
+          state: State
+          postal-code: Postal Code
     note: Yet another author footnote.
-  - name: Derek Zoolander
-    email: derek@example.com
-    affilations:
-        - ref: some-tech
 keywords: 
   - keyword1
   - keyword2
+  - keyword3
 date: last-modified
 date-format: long
 
@@ -78,39 +81,39 @@ highlights: |
 
 <!-- With the following code you can access and display values from the yml header above. -->
 
-Keywords: `r rmarkdown::metadata$keywords`
+**Keywords:** `r rmarkdown::metadata$keywords`
 
-Highlights: `r rmarkdown::metadata$highlights`
+**Highlights:** `r rmarkdown::metadata$highlights`
 
 <!-- The actual document text starts here: -->
 
-{{< include _abstract.qmd >}}
+{{< include _00_abstract.qmd >}}
 
 {{< pagebreak >}}
 
-{{< include _intro.qmd >}}
+{{< include _01_intro.qmd >}}
 
-{{< include _methods.qmd >}}
+{{< include _02_methods.qmd >}}
 
-{{< include _results.qmd >}}
+{{< include _03_results.qmd >}}
 
 Here is an example of inline code `r x` in the middle of a sentence.
 
-{{< include _discussion.qmd >}}
+{{< include _04_discussion.qmd >}}
 
-{{< include _acknowledgments.qmd >}}
+{{< include _05_acknowledgments.qmd >}}
 
 <!-- The following line inserts a page break  -->
 
-<!-- {{< pagebreak >}} -->
+{{< pagebreak >}}
 
-{{< include _references.qmd >}}
+{{< include _06_references.qmd >}}
 
 <!-- The following line ensures the references appear here for the MS Word or HTML output files, rather than right at the end of the document (this will not work for PDF files):  -->
 
 ::: {#refs}
 :::
 
-<!-- {{< pagebreak >}} -->
+{{< pagebreak >}}
 
 {{< include _colophon.qmd >}}

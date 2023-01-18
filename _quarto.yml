@@ -5,13 +5,13 @@ project:
   # resources: src
   render:
     - index.qmd
-    - _abstract.qmd
-    - _intro.qmd
-    - _methods.qmd
-    - _results.qmd
-    - _discussion.qmd
-    - _acknowledgements.qmd
-    - _references.qmd
+    - _00_abstract.qmd
+    - _01_intro.qmd
+    - _02_methods.qmd
+    - _03_results.qmd
+    - _04_discussion.qmd
+    - _05_acknowledgements.qmd
+    - _06_references.qmd
     - _colophon.qmd
 
 execute:
