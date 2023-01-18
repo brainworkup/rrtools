@@ -166,11 +166,14 @@ div.csl-indent {
   <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
   </ul></li>
   <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#background-1" id="toc-background-1" class="nav-link" data-scroll-target="#background-1">Background</a></li>
-  <li><a href="#methods-1" id="toc-methods-1" class="nav-link" data-scroll-target="#methods-1">Methods</a></li>
+  <li><a href="#methods-1" id="toc-methods-1" class="nav-link" data-scroll-target="#methods-1">Methods</a>
+  <ul class="collapse">
+  <li><a href="#participants" id="toc-participants" class="nav-link" data-scroll-target="#participants">Participants</a></li>
+  <li><a href="#measures" id="toc-measures" class="nav-link" data-scroll-target="#measures">Measures</a></li>
+  <li><a href="#analytical-strategy" id="toc-analytical-strategy" class="nav-link" data-scroll-target="#analytical-strategy">Analytical Strategy</a></li>
+  </ul></li>
   <li><a href="#results-1" id="toc-results-1" class="nav-link" data-scroll-target="#results-1">Results</a></li>
   <li><a href="#discussion-1" id="toc-discussion-1" class="nav-link" data-scroll-target="#discussion-1">Discussion</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
   <ul class="collapse">
@@ -207,12 +210,6 @@ div.csl-indent {
     
   </div>
   
-<div>
-  <div class="abstract">
-    <div class="abstract-title">Abstract</div>
-    <p>Text of abstract</p>
-  </div>
-</div>
 
 </header>
 
@@ -247,13 +244,19 @@ div.csl-indent {
 </section>
 <section id="introduction" class="level1">
 <h1>Introduction</h1>
-<p>Here is a citation <span class="citation" data-cites="Marwick2017">(<a href="#ref-Marwick2017" role="doc-biblioref">Marwick, 2017</a>)</span></p>
-</section>
-<section id="background-1" class="level1">
-<h1>Background</h1>
+<p>Here is a citation <span class="citation" data-cites="Marwick2017">(<a href="#ref-Marwick2017" role="doc-biblioref">Marwick, 2017</a>)</span>.</p>
 </section>
 <section id="methods-1" class="level1">
 <h1>Methods</h1>
+<section id="participants" class="level2">
+<h2 class="anchored" data-anchor-id="participants">Participants</h2>
+</section>
+<section id="measures" class="level2">
+<h2 class="anchored" data-anchor-id="measures">Measures</h2>
+</section>
+<section id="analytical-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="analytical-strategy">Analytical Strategy</h2>
+</section>
 </section>
 <section id="results-1" class="level1">
 <h1>Results</h1>
@@ -278,12 +281,10 @@ div.csl-indent {
 
 </div>
 <p>Here is an example of inline code 3.14 in the middle of a sentence.</p>
+<p>Here is an example of inline code 3.14 in the middle of a sentence.</p>
 </section>
 <section id="discussion-1" class="level1">
 <h1>Discussion</h1>
-</section>
-<section id="conclusion" class="level1">
-<h1>Conclusion</h1>
 </section>
 <section id="acknowledgements" class="level1">
 <h1>Acknowledgements</h1>
@@ -299,9 +300,16 @@ Marwick, B., 2017. Computational reproducibility in archaeological research: Bas
 </div>
 </div>
 <div style="page-break-after: always;"></div>
+<!-- The following line ensures the references appear here for the MS Word or HTML output files, rather than right at the end of the document (this will not work for PDF files):  -->
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Marwick2017" class="csl-entry" role="doc-biblioentry">
+Marwick, B., 2017. Computational reproducibility in archaeological research: Basic principles and a case study of their implementation. Journal of Archaeological Method and Theory 24, 424–450. <a href="https://doi.org/10.1007/s10816-015-9272-9">https://doi.org/10.1007/s10816-015-9272-9</a>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
 <section id="colophon" class="level3">
 <h3 class="anchored" data-anchor-id="colophon">Colophon</h3>
-<p>This report was generated on 2023-01-18 09:18:45 using the following computational environment and dependencies:</p>
+<p>This report was generated on 2023-01-18 09:34:08 using the following computational environment and dependencies:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># which R packages and versions?</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">"devtools"</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>()) devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -383,7 +391,7 @@ Marwick, B., 2017. Computational reproducibility in archaeological research: Bas
 <div class="cell-output cell-output-stdout">
 <pre><code>Local:    main /Users/joey/dev/rrtools
 Remote:   main @ origin (https://github.com/brainworkup/rrtools.git)
-Head:     [42d67af] 2023-01-18: moved output to docs</code></pre>
+Head:     [3f9a65e] 2023-01-18: RESTRUCTURED</code></pre>
 </div>
 </div>
 
